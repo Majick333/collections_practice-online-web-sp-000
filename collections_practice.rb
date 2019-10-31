@@ -24,8 +24,7 @@ def sort_array_char_count(array)
     elsif a.length < b.length
       1
     elsif a == begin
-      0  
+      0
     end
   end
 end
-      
