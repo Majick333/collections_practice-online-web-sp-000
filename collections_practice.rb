@@ -6,7 +6,7 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
-  array.sort do |a,b|
+  array.sort do |a, b|
   if a > b
     -1
   elsif a < b
@@ -18,7 +18,7 @@ def sort_array_desc(array)
 
 
 def sort_array_char_count(array)
-  array.sort do |a,b|
+  array.sort do |a, b|
     a.length <=> b.length
     end
   end
